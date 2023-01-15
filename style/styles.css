@@ -1,0 +1,167 @@
+font-family: 'Open Sans', sans-serif;
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Work Sans', sans-serif;
+}
+/* nav styles here  */
+.sec-one{
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+    background-color: #FFF4E7;
+}
+.header{
+    width: 100%;
+    max-width: 1500px ;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: 
+    #FF900E;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    color: #131313;
+}
+.main-title{
+    color: #131313;
+    font-size: 30px;
+}
+/* explore styles here  */
+.explore-header{
+    text-align: center;
+    padding: 7rem 0 3rem 0;
+}
+.title{
+    font-weight: 700px;
+    font-size: 64px;
+}
+.explore-title{
+    color: #727272;
+    padding: 32px 0;
+}
+/* container img styles here  */
+
+.container-img{
+    
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.sec-two{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.pic-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+.pic-container img{
+    border-radius: 5px;
+}
+.banner-container{
+    align-items: center;
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.of-our{
+    font-weight: 700;
+    color: #131313;
+}
+.banner{
+    color: #FF900E;
+    font-weight: bolder;
+}
+.banner-detail{
+    color: #727272;
+    font-size: 1rem;
+    margin: 24px 0px;
+}
+.sec-three{
+    margin-top: 650px;
+}
+
+.second-banner{
+    justify-content: center;
+    padding-left: 100px;
+}
+.para-div{
+    font-size: 40px;
+}
+.btn{
+    width: 250px;
+    height: 150px;
+    background-color: #FF900E;
+    border-radius: 7px;
+  
+   
+}
+.second-banner{
+    display: flex;
+    gap: 20px;
+}
+
+.icons-title{
+    
+margin-top: 700px;
+margin-left: 100px;
+}
+.icons-pera{
+    font-size: 40px;
+}
+.icon-pic{
+    display: flex;
+    gap: 120px;
+    margin-left: 100px;
+    padding: 100px;
+}
+.icon-pics{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 150px;
+}
+.last-title{
+    
+    margin-left: 600px;
+}
+.last-word{
+    font-size: 40px;
+}
+
+.last-pics{
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+    padding: 50px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    
+}
